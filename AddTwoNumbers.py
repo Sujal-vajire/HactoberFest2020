@@ -1,9 +1,10 @@
-# just change Add to sum 
-num1 = 15
-num2 = 12
+# This program adds two numbers
 
-# change Add to sum 
-Add = num1 + num2 
+num1 = 1.5
+num2 = 6.3
 
+# Add two numbers
+sum = num1 + num2
 
-print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
