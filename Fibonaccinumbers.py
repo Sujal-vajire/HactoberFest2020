@@ -1,5 +1,5 @@
 
-#add any no in the bracket 
+#add any numbers in the bracket 
 def Fibonacci(n):
 	if n<=0:
 		print("Incorrect input")
