@@ -5,9 +5,9 @@ def _sum(arr,n):
 	return(sum(arr)) 
 
 
-arr=[] 
 
-arr = [] #paste this in the Array 12, 3, 4, 15
+
+arr = [12, 3, 4, 15] #paste this in the Array 12, 3, 4, 15
 
 
 n = len(arr) 
