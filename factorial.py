@@ -7,6 +7,6 @@ def factorial(n):
  
 num = 5; 
 #Correct spelling of print
-prin("Factorial of",num,"is", factorial(num)) 
+print("Factorial of",num,"is", factorial(num)) 
 
 
