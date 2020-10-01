@@ -13,6 +13,6 @@ def Fibonacci(n):
 		return Fibonacci(n-1)+Fibonacci(n-2)
 
 
-#add any no in the bracket 
+#add any number in the bracket 
 print(Fibonacci())
 
