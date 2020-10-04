@@ -1,4 +1,4 @@
-/ C++ program for implementation of Bubble sort  
+/ C++ program for implementation of Bubble sort method 
 #include <bits/stdc++.h> 
 using namespace std; 
   
