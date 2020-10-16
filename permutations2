@@ -1,0 +1,26 @@
+class Solution {
+public:
+    void find(vector<vector<int>> &res,int i,vector<int> &v)
+    {
+        if(i==v.size())
+        {
+            res.push_back(v);
+            return ;
+        }
+        unordered_map<int,int> um;
+        for(int j=i;j<v.size();j++)
+        {
+            if(um.find(v[j])!=um.end())
+                continue;
+            um[v[j]]=1;
+            swap(v[i],v[j]);
+            find(res,i+1,v);
+            swap(v[i],v[j]);
+        }
+    }
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
+        vector<vector<int>> res;
+        find(res,0,nums);
+        return res;
+    }
+};
