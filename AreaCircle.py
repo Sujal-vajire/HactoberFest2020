@@ -1,10 +1,10 @@
-# Python program to find Area of a circle 
+# Python Program to Find Area of a Circle with Given Radius
 
-def findArea(r): 
-	PI = 3.142
-	return PI * (r*r); 
+def findAreaCircle(r): 
+	pi = 3.14
+	return pi*(r*r); 
 
-# Driver method 
-print("Area is %.6f" % findArea(5)); 
+# Enter value of r in findAreaCircle(r) to get area of circle of given radius. 
+print("Area of Circle is is %.4f" % findAreaCircle(8)); 
 
-# This code is contributed by Chinmoy Lenka 
+# This code is contributed by Chinmoy Lenka and Siddhesh Kataria 
