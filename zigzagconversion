@@ -1,0 +1,37 @@
+class Solution {
+public:
+    string convert(string s, int numRows) {
+        int i,j,k,l,n;
+        l=s.length();
+        string str[numRows];
+        for(i=0;i<numRows;i++)
+            str[i]="";
+       if(numRows==1)
+           return s;
+        j=0;
+        k=1;
+        for(i=0;i<l;i++)
+        {
+            
+            str[j]=str[j]+s[i];
+            if(k==1)
+                j++;
+            else
+                j--;
+            if(k==1&&j==numRows)
+            {
+                k=0;
+                j=numRows-2;
+            }
+            if(k==0&&j<0)
+            {
+                j=1;
+                k=1;
+            }
+        }
+        string res="";
+        for(i=0;i<numRows;i++)
+            res=res+str[i];
+        return res;
+    }
+};
