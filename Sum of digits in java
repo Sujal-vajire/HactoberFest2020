@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	     int n=12345,sum=0,temp=n;
+
+        while(n != 0){
+            sum = sum + n%10;
+            n=n/10;
+        }
+
+        System.out.println("The Sum of digits of number "+temp+" = "+sum);
+	}
+}
