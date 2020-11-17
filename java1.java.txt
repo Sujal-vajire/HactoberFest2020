@@ -1,0 +1,17 @@
+class Main {
+  public static void main(String[] args) {
+    // Pass the argument "swaaathi"
+    printData("swaaathi");
+    
+    // Pass the argument "John Christopher Smith"
+    printData("maya Smith");
+    
+  }
+
+  // Edit the method to accept an argument
+  public static void printData(String name) {
+    // Output "My name is ____."
+    System.out.println("My name is "+name+".");
+    
+  }
+}
