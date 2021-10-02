@@ -1,5 +1,5 @@
 # just add the following in the list 10, 21, 4, 45, 66, 93
-list1 = [] 
+list1 = [10, 21, 5, 45, 66, 93] 
 
 
 for num in list1: 

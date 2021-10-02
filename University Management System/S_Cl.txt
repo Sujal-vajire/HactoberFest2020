@@ -1,0 +1,6 @@
+18CL001 Yagnik Bharada CSPIT CL
+18CL002 Dhruv Chapdia CSPIT Cl
+18CL003 Neel Patel CSPIT Cl
+18CL004 Umang Patel CSPIT Cl
+18CL005 Urvish Vegad CSPIT CL
+
